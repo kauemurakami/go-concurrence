@@ -7,7 +7,7 @@ import (
 
 func main() {
 	go writePhrase("Hello world")
-	go writePhrase("Olá mundo")
+	writePhrase("Olá mundo")
 }
 
 func writePhrase(text string) {
